@@ -7,8 +7,8 @@ return {
 		},
 		config = function()
 			local builtin = require("telescope.builtin")
-			vim.keymap.set("n", "<leader><space>", builtin.find_files, {})
-			vim.keymap.set("n", "<leader>fp", builtin.live_grep, {})
+			vim.keymap.set("n", "<leader><space>", builtin.find_files, { desc = "Find files" })
+			vim.keymap.set("n", "<leader>fp", builtin.live_grep, { desc = "Live grep find porject files" })
 			vim.keymap.set("n", "<leader>?", builtin.oldfiles, { desc = "[?] Find recently opened files" })
 			vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "[ ] Find existing buffers" })
 			vim.keymap.set("n", "<leader>sh", builtin.help_tags, { desc = "[S]earch [H]elp" })
