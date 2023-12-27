@@ -6,15 +6,15 @@
 
 # Essesntial.nvim
 
-More than Kickstart less than LazyVim. All Essesntial plugins, options, autocmds, and keymaps (some from the great vimeagen) with no extra bs for web dev's  
+More than Kickstart less than LazyVim. All Essential plugins, options, autocmds, and keymaps (some from the great Vimeagen) with no extra bs for web dev's  
 
 ##  Features
-- Transform your Neovim into a IDE wiht essesntials only
+- Transform your Neovim into an IDE with essentials only
 
-- Easily customize and extend your config with Essesntial.nvim
+- Easily customize and extend your config with Essential.nvim
 
 - Blazingly fast
 
 - Sane default settings for options, autocmds, and keymaps
 
-- Its good 😁👍
+- It's good 😁👍
