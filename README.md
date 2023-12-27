@@ -4,7 +4,7 @@
 ![App Screenshot](https://imgur.com/IEOb9F0.gif)
 
 
-# Essesntial.nvim
+# Essential.nvim
 
 More than Kickstart less than LazyVim. All Essential plugins, options, autocmds, and keymaps (some from the great Vimeagen) with no extra bs for web dev's  
 
