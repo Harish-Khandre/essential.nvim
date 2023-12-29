@@ -19,6 +19,12 @@ return {
 			vim.keymap.set("n", "<leader>gr", builtin.lsp_references, { desc = "[G]o to [R]eferences" })
 			vim.keymap.set(
 				"n",
+				"<leader>sf",
+				"<cmd>Telescope session-lens search_session<cr>",
+				{ desc = "[S]ession find" }
+			)
+			vim.keymap.set(
+				"n",
 				"<leader>,",
 				"<cmd>Telescope buffers sort_mru=true sort_lastused=true<cr>",
 				{ desc = "[S]witch buffer" }
