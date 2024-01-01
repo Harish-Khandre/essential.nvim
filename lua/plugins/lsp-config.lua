@@ -26,11 +26,11 @@ return {
 			lspconfig.cssls.setup({})
 			lspconfig.sqlls.setup({})
 
-			vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { desc = "[G]o to declaration" })
-			vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "[G]o to definition" })
-			vim.keymap.set("n", "K", vim.lsp.buf.hover, { desc = "[D]etails" })
-			vim.keymap.set("n", "gi", vim.lsp.buf.implementation, { desc = "[G]o to implementations" })
-			vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, { desc = "[C]ode Action" })
+			vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { desc = "Go to declaration" })
+			vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "Go to definition" })
+			vim.keymap.set("n", "K", vim.lsp.buf.hover, { desc = "Details" })
+			vim.keymap.set("n", "gi", vim.lsp.buf.implementation, { desc = "Go to implementations" })
+			vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, { desc = "Code Action" })
 		end,
 	},
 }

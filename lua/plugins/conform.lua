@@ -4,7 +4,6 @@ return {
 	event = { "BufReadPre", "BufNewFile" }, -- to disable, comment this out
 	config = function()
 		local conform = require("conform")
-
 		conform.setup({
 			formatters_by_ft = {
 				javascript = { "prettier" },
@@ -34,6 +33,6 @@ return {
 				async = false,
 				timeout_ms = 1000,
 			})
-		end, { desc = "[F]ormat file or range (in visual mode)" })
+		end, { desc = "Format file" })
 	end,
 }
