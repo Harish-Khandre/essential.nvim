@@ -111,19 +111,6 @@ with [PowerShell](https://github.com/PowerShell/PowerShell)
 
 
 </TabItem>
-
-<TabItem value="docker" label="Try it with Docker">
-
-```sh
-docker run -w /root -it --rm alpine:edge sh -uelic '
-  apk add git lazygit neovim ripgrep alpine-sdk --update
-  git clone https://github.com/Harish-Khandre/essential.nvim ~/.config/nvim
-  cd ~/.config/nvim
-  nvim
-'
-```
-
-</TabItem>
 </Tabs>
 
 :::tip
@@ -131,5 +118,3 @@ docker run -w /root -it --rm alpine:edge sh -uelic '
 It is recommended to run `:checkhealth` after installation
 
 :::
-
-":::
