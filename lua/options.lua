@@ -1,13 +1,3 @@
-vim.g.mapleader = " "
-vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
-vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
-vim.keymap.set("n", "<C-d>", "<C-d>zz")
-vim.keymap.set("n", "<C-u>", "<C-u>zz")
-vim.keymap.set("n", "n", "nzzzv")
-vim.keymap.set("n", "N", "Nzzzv")
-vim.keymap.set("n", "<leader>rw", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], { desc = "[W]ord" })
-vim.keymap.set({ "i", "x", "n", "s" }, "<C-s>", "<cmd>w<cr><esc>", { desc = "Save file" })
-
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
@@ -30,6 +20,14 @@ vim.opt.spell = true
 vim.opt.relativenumber = true
 vim.opt.number = true
 
+vim.g.mapleader = " "
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "n", "nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
+vim.keymap.set({ "i", "x", "n", "s" }, "<C-s>", "<cmd>wa<cr><esc>", { desc = "Save file" })
 vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Go to left window", remap = true })
 vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Go to lower window", remap = true })
 vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Go to upper window", remap = true })
@@ -40,3 +38,4 @@ vim.keymap.set("n", "<C-Left>", "<cmd>vertical resize -2<cr>", { desc = "Decreas
 vim.keymap.set("n", "<C-Right>", "<cmd>vertical resize +2<cr>", { desc = "Increase window width" })
 vim.keymap.set({ "i", "n" }, "<esc>", "<cmd>noh<cr><esc>", { desc = "Escape and clear hlsearch" })
 vim.keymap.set("n", "<leader>bd", "<cmd>bd<cr><esc>", { desc = "Delete buffer " })
+vim.keymap.set("n", "<leader>rw", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], { desc = "[W]ord" })
