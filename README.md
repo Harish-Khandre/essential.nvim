@@ -6,7 +6,7 @@
 
 # 🗿 Essential.nvim
 
-More than Kickstart less than LazyVim. All Essential plugins, options, autocmds, and keymaps (some from the great Vimeagen) with no extra bs for web dev's  
+More than Kickstart less than LazyVim. All Essential plugins, options, autocmds, and keymaps (some from the great Vimeagen) with no extra bs for web devs  
 
 ## ⭐ Features
 - Transform your Neovim into an IDE with essentials only
@@ -60,7 +60,7 @@ Install the [Essential Starter](https://github.com/Harish-Khandre/essential.nvim
   git clone https://github.com/Harish-Khandre/essential.nvim ~/.config/nvim
   ```
 
-- Remove the `.git` folder, so you can add it to your own repo later
+- Remove the `.git` folder, so you can add it to your repo later
 
   ```sh
   rm -rf ~/.config/nvim/.git
@@ -97,7 +97,7 @@ with [PowerShell](https://github.com/PowerShell/PowerShell)
   git clone https://github.com/Harish-Khandre/essential.nvim $env:LOCALAPPDATA\nvim
   ```
 
-- Remove the `.git` folder, so you can add it to your own repo later
+- Remove the `.git` folder, so you can add it to your repo later
 
   ```powershell
   Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
