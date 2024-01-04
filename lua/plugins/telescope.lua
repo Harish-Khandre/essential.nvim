@@ -17,6 +17,8 @@ return {
 			vim.keymap.set("n", "<leader>gI", builtin.lsp_implementations, { desc = "Implementation" })
 			vim.keymap.set("n", "<leader>gd", builtin.lsp_definitions, { desc = "Definitions" })
 			vim.keymap.set("n", "<leader>gr", builtin.lsp_references, { desc = "References" })
+			vim.keymap.set("n", "<leader>ic", builtin.colorscheme, { desc = "Color scheme" })
+			vim.keymap.set("n", "<leader>cs", builtin.spell_suggest, { desc = "Spell suggest" })
 			vim.keymap.set(
 				"n",
 				"<leader>sf",

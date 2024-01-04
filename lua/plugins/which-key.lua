@@ -13,6 +13,7 @@ return {
 			["<leader>r"] = { name = "[R]ename", _ = "which_key_ignore" },
 			-- ["<leader>d"] = { name = "[D]ebug", _ = "which_key_ignore" },
 			["<leader>s"] = { name = "[S]essions", _ = "which_key_ignore" },
+			["<leader>i"] = { name = "[I]interface", _ = "which_key_ignore" },
 		})
 	end,
 }
