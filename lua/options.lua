@@ -14,7 +14,7 @@ vim.opt.linebreak = true
 vim.opt.wrapmargin = 2
 vim.opt.smartindent = true
 
-vim.opt.colorcolumn = "80"
+--vim.opt.colorcolumn = "80"
 vim.opt.scrolloff = 8
 vim.opt.updatetime = 50
 vim.opt.cursorline = true
