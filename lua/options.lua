@@ -21,9 +21,9 @@ vim.opt.cursorline = true
 vim.opt.spelllang = { "en" }
 vim.opt.spell = true
 
+vim.opt.guicursor = "n-v-c-sm:blinkon1,i-ci-ve:ver25,r-cr-o:hor20"
 vim.opt.relativenumber = true
 vim.opt.number = true
-
 vim.g.mapleader = " "
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
