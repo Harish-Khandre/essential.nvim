@@ -1,8 +1,8 @@
 
 
+![App Screenshot](https://i.imgur.com/gvn9tXX.png)
 
-![App Screenshot](https://imgur.com/IEOb9F0.gif)
-
+![App Screenshot](https://i.imgur.com/MNYlgw9.png)
 
 # 🗿 Essential.nvim
 
